@@ -1,0 +1,92 @@
+.PostContainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas: 
+        "vote post"
+        "vote post"
+        "vote post"
+        "footer footer";
+    max-height: 400px;
+    max-width: 600px;
+    margin: 30px 75px;
+    padding-bottom: 50px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.Votes{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: gray;
+}
+
+.Account {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 3px solid black;
+    align-items: center;
+    color: grey;
+}
+
+.Info {
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+}
+
+.Comments {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#yes, #no {
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+    border: white;
+}
+
+h3 {
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+h2, .Post img {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    padding-right: 25px;
+}
+
+.Account span {
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.Info p {
+    margin-left: 100px;
+}
+
+.Post img {
+    width: 95%;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.Info img {
+    width: 30px;
+    height: 30px;
+}

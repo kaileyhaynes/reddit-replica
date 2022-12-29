@@ -1,0 +1,11 @@
+.PostListContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 1020px) {
+    .PostListContainer {
+        grid-template-columns: 1fr;
+        overflow: scroll;
+    }
+}
